@@ -1,7 +1,12 @@
 This handin includes two different parsing algorithms.
 The first one is the implementation of a earley parser, which is better called a recognizer. 
 I found this extremely suitable for part A and its algorithm is elegant and easy to understand. 
-But later I accidentally found that this lab has a bonus part and it requires a parse tree, in such case Earley's method suffers from the difficulties of reconstructing the parse tree (forest), even Earley himself got wrong in the first place. Of course it didn't work for me either, and I neither want to waste time on inventing some time-efficient algorithms nor read the papers. So I turned to a simple hand-writtern recursive descent parser which is much easier to implement. (I didn't use the method described in the writeup on the website because I don't find it generic and interesting)
+But later I accidentally found that this lab has a bonus part and it requires a parse tree, 
+in such case Earley's method suffers from the difficulties of reconstructing the parse tree (forest), 
+even Earley himself got wrong in the first place. Of course it didn't work for me either, 
+and I neither want to waste time on inventing some time-efficient algorithms nor read the papers. 
+So I turned to a simple hand-writtern recursive descent parser which is much easier to implement. 
+(I didn't use the method described in the writeup on the website because I don't find it generic and interesting)
 And obviously the Swing is bloody hard to use that I wasted too much time on it.
 
 Notes on evaluating the upload:
